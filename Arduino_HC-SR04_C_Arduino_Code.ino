@@ -18,7 +18,7 @@ void loop() {
  distance = duration/58;
  if ((distance >= 400) || (distance <= 2))
  distance = -1;
- Serial.println(distance);
+ Serial.println(distance); // print any value from any sensor and the C# app will read it
  delay(60);
   
 }
