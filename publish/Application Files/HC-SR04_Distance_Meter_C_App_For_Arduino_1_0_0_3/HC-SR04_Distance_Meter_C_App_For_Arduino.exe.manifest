@@ -1,0 +1,66 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="HC-SR04_Distance_Meter_C_App_For_Arduino.exe" version="1.0.0.3" publicKeyToken="c539b45ef568ad1b" language="neutral" processorArchitecture="x86" type="win32" />
+  <description asmv2:iconFile="Apps-Arduino.ico" xmlns="urn:schemas-microsoft-com:asm.v1" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="HC-SR04_Distance_Meter_C_App_For_Arduino" version="1.0.0.0" language="neutral" processorArchitecture="x86" />
+    <commandLine file="HC-SR04_Distance_Meter_C_App_For_Arduino.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          UAC Manifest Options
+          If you want to change the Windows User Account Control level replace the 
+          requestedExecutionLevel node with one of the following.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+         If you want to utilize File and Registry Virtualization for backward 
+         compatibility then delete the requestedExecutionLevel node.
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="HC-SR04_Distance_Meter_C_App_For_Arduino.exe" size="547320">
+      <assemblyIdentity name="HC-SR04_Distance_Meter_C_App_For_Arduino" version="1.0.0.0" language="neutral" processorArchitecture="x86" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+        <dsig:DigestValue>RDf7daijjB7HCtJDeHrwR8f6Ifw=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="Apps-Arduino.ico" size="46009">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>EZ/rGDBGgNRtR3xCSIeXUhMA87o=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="CN=3L1M1N470RC\3L1M1N470RC4P0" issuerKeyHash="77d0fa8af9d8977ce20898fd3a522979af7824f7" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" /><DigestValue>eaxwKDpYHUSwOL/h5+tUM1utWVo=</DigestValue></Reference></SignedInfo><SignatureValue>arDTcs/E4cTREVVtWTn2yIzhd9FkVIAdK7FVmy/lfaMnToSmtkXC1vqvdCZRb6pWgccTdNyGM+hsgdbP4lgWCNx/BQeYXJW5A3tRhru55B6zNlaaK9ZQVz8ZF8W7WxxFYrsWpUvRZ+d9ekRF/96n7IGhF086IiSqt3f72pmA2ck=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>qpxHhCTd+krXHAZzY0OWjdBsuPwwPlZAPVAvSJgaR7rnNY0TY4it0iah47RK5otxPrF6ikdzFOrIEtsVjgGcRGwoatFxCykFTvhyRiQ7RgggBdpZcdLceXFgll/MaopHWgMBm6ThhpbC2uS4Flml+g+DBHvZi8CrhvuKESh61v8=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="5a59ad5b3354ebe7e1bf38b0441d583a2870ac79" Description="" Url=""><as:assemblyIdentity name="HC-SR04_Distance_Meter_C_App_For_Arduino.exe" version="1.0.0.3" publicKeyToken="c539b45ef568ad1b" language="neutral" processorArchitecture="x86" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=3L1M1N470RC\3L1M1N470RC4P0</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" /><DigestValue>RRvd0OfMDbtb/UXARrjzIHxF4xg=</DigestValue></Reference></SignedInfo><SignatureValue>put2O6CHi/eghCHbkvqES+derK5fORXH+dMc8rvvvjHlmVQLYhyKhnlUsyC3pXkeXukzd0Qh/oxhcntktP/bw9FfTnXD6TqJw06PcA0LAsExzFBoL4kobDanYLF86Z57ep8KYv52VF6MLO/8Yt0GhjYx37mrI6noZtC0De8IIP8=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>qpxHhCTd+krXHAZzY0OWjdBsuPwwPlZAPVAvSJgaR7rnNY0TY4it0iah47RK5otxPrF6ikdzFOrIEtsVjgGcRGwoatFxCykFTvhyRiQ7RgggBdpZcdLceXFgll/MaopHWgMBm6ThhpbC2uS4Flml+g+DBHvZi8CrhvuKESh61v8=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIICATCCAWqgAwIBAgIQZYjwKCWVjYdOsWYM2ghJSTANBgkqhkiG9w0BAQUFADA/MT0wOwYDVQQDHjQAMwBMADEATQAxAE4ANAA3ADAAUgBDAFwAMwBMADEATQAxAE4ANAA3ADAAUgBDADQAUAAwMB4XDTE3MDcyMDIxMzAwNFoXDTE4MDcyMTAzMzAwNFowPzE9MDsGA1UEAx40ADMATAAxAE0AMQBOADQANwAwAFIAQwBcADMATAAxAE0AMQBOADQANwAwAFIAQwA0AFAAMDCBnzANBgkqhkiG9w0BAQEFAAOBjQAwgYkCgYEAqpxHhCTd+krXHAZzY0OWjdBsuPwwPlZAPVAvSJgaR7rnNY0TY4it0iah47RK5otxPrF6ikdzFOrIEtsVjgGcRGwoatFxCykFTvhyRiQ7RgggBdpZcdLceXFgll/MaopHWgMBm6ThhpbC2uS4Flml+g+DBHvZi8CrhvuKESh61v8CAwEAATANBgkqhkiG9w0BAQUFAAOBgQB0tTDJi5yJriZtSNV2abRE9WFywGhUlbNqrJSA4MnPmTmoegcdIMo9NS4PNp/6fYmQbybA7f7/Mi5IT1ALG/4AMl8bgB3iRutzkJjk5hJlmlrWlM4nTQ5VAaLdufs+Kois6BbBk7q9S3Q80g42v6yNM0e9ZkKrOFdy655fq5uceQ==</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>
